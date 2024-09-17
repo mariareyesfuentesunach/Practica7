@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #7a7a7a;
+    background-color: #003a04;
 }
 
 .areaPrincipal {
     /*Así se define una clase*/
-    background-image: url("../img/fondo.jpg");
+    background-image: url("../img/madera_grande.jpg");
     /* agregar fondo de imagen al div*/
     background-repeat: no-repeat;
     /*permitir o no que se repita una imagen*/
@@ -29,14 +29,15 @@ body {
 
 
 #encabezado {
-    background: #d0e6f8;
+    background: #026637;
     height: 240px;
     text-align: center;
-    background-image: url("../img/banner\ pix\ grandes.png");
-    background-repeat:
-        no-repeat;
-    background-size: 180px 180px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 900px 200px;
+    background-position: center; /* Centra la imagen horizontal y verticalmente */
 }
+
 
 
 .piePagina {
@@ -44,7 +45,7 @@ body {
     /*ancho*/
     height: 100px;
     /*alto*/
-    background: #15101b;
+    background: #026637;
     /*Color de fondo*/
     color: white;
     /*Color de letra dentro de la clase*/
@@ -56,7 +57,7 @@ body {
 }
 
 
-✓ #menu {
+#menu {
     /*identificador*/
     height: 40px;
     position: relative;
@@ -90,11 +91,17 @@ li a:hover {
 
 #datos {
     width: 80%;
-    background-color: #f4f000;
+    background-color: #38953e;
     height: 600px;
     margin: auto;
     opacity: 1;
     color: #2a3e55;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .no1{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
     }
