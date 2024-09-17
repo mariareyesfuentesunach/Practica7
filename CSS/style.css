@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #003a04;
+    background-color: #007308;
 }
 
 .areaPrincipal {
@@ -104,4 +104,21 @@ li a:hover {
     .no1{
         color: rgb(255, 255, 255);
         font-size: 25px;
+    }
+
+    .cat{
+        display: flex;
+        align-items: center;
+    }
+
+    .imagen-ovalada {
+        width: 200px;
+        /* Ajusta el ancho según lo necesites */
+        height: 200px;
+        /* Ajusta la altura según lo necesites */
+        object-fit: cover;
+        /* Asegura que la imagen se ajuste bien dentro del contenedor */
+        border-radius: 90%;
+        /* Hace que la imagen tenga forma de círculo */
+    
     }
