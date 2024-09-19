@@ -18,49 +18,21 @@
             text-shadow: 4px 4px 0px #131212;
             text-align: center;
         }
-        .menu-container {
-            background-color: #1ab030;
-            width: 350px;
-            border-radius: 10px;
-            padding: 20px;
-            color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
 
-        .menu-container h2 {
-            text-align: center;
-            font-size: 22px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        table {
+        .piecat {
             width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            padding: 8px 12px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #016806;
-            font-weight: bold;
-        }
-
-        tr:nth-child(even) {
-            background-color: #117b26;
-        }
-
-        tr:nth-child(odd) {
-            background-color: #1c891a;
-        }
-
-        .extra-info {
-            text-align: center;
-            font-style: italic;
-            margin-bottom: 10px;
+            /*ancho*/
+            height: 10px;
+            /*alto*/
+            background: #026637;
+            /*Color de fondo*/
+            color: white;
+            /*Color de letra dentro de la clase*/
+            bottom: 0;
+            /*Espacio de separación parte inferior*/
+            position: fixed;
+            left: 0;
+            /*Alineación de contenidos a la izquierda*/
         }
     </style>
 
@@ -75,7 +47,7 @@
                 <li><a href="index.html" title="Página principal">Inicio</a></li>
                 <li><a href="nosotros.html" title="descripción del negocio">Nosotros</a></li>
                 <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
-                <li><a href="galería.html" title="Fotos">Galeria</a></li>
+                <li><a href="galeria.html" title="Fotos">Galeria</a></li>
                 <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
             </ul>
         </div>
@@ -86,94 +58,151 @@
             <h1 class="nosotros">
                 ✧Menú✧
             </h1>
+            <div class="menu_tacos">
 
-            <!-- MENUUU -->
-            <div class="menu-container">
-                <h2>Tacos Sencillos de Maíz</h2>
-                <p class="extra-info">(Agregue Queso +$10 pza)</p>
                 <table>
-                    <thead>
-                        <tr>
-                            <th>Opción</th>
-                            <th>Pieza (1)</th>
-                            <th>Orden (3)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Tripa</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Campechano</td>
-                            <td>20</td>
-                            <td>55</td>
-                        </tr>
-                        <tr>
-                            <td>Alambre</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Carne Asada</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Chorizo</td>
-                            <td>20</td>
-                            <td>55</td>
-                        </tr>
-                        <tr>
-                            <td>Chistorra</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Suadero</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Pastor con Piña</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Vampiro</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                        <tr>
-                            <td>Longaniza</td>
-                            <td>20</td>
-                            <td>55</td>
-                        </tr>
-                        <tr>
-                            <td>Chorizo Argentino</td>
-                            <td>25</td>
-                            <td>70</td>
-                        </tr>
-                    </tbody>
+                    <tr>
+                        <td>
+                            <h1>Tacos
+                                sencillos de maiz</h1><br>
+                        </td>
+                        <td><img src="img/galeria2.jpg" class="menu_i"></td>
+                    </tr>
+                    <tr>
+                        <td>Tripa.....................</td>
+                        <td>$25.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Campechano.....................</td>
+                        <td>$20.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Alambre.....................</td>
+                        <td>$25.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carne asada.....................</td>
+                        <td>$20.00</td>
+                    </tr>
                 </table>
+                <br>
+
+                <table>
+                    <tr>
+                        <td>
+                            <h1>Las quesadillas</h1>
+                        </td>
+                        <td><img src="img/las quesadillas.jpg" class="menu_i"></td>
+                    </tr>
+                    <tr>
+                        <td>Gringas.....................</td>
+                        <td>$39.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Suizas.....................</td>
+                        <td>$49.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quesadilla de Hambre.....................</td>
+                        <td>$55.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quesadilla de Tripa.....................</td>
+                        <td>$65.00</td>
+                    </tr>
+                </table>
+
+
+                <table class="tabla1">
+                    <tr>
+                        <td>
+                            <h1>Especiales</h1>
+                        </td>
+                        <td><img src="img/Nachos.jpg" class="menu_i"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td>El burrito.....................</td>
+                        <td>$95.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Los volcanes.....................</td>
+                        <td>$105.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>La tostada.....................</td>
+                        <td>$125.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Nachos.....................</td>
+                        <td>$55.00</td>
+                    </tr>
+                </table>
+
+
+
+                <table class="tabla2">
+                    <tr>
+                        <td>
+                            <h1>Fuentes de sodas</h1>
+                        </td>
+                        <td><img src="img/soda.jpg" class="menu_i"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td>Agua del dia.....................</td>
+                        <td>$25.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cafe.....................</td>
+                        <td>$35.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sodas Italinas.....................</td>
+                        <td>$65.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Esquimos.....................</td>
+                        <td>$35.00</td>
+                    </tr>
+                </table>
+
+
+
+         
+
+
+
+
             </div>
 
-          
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="piecat"></div>
+
+
     </div>
-
-    
-
-           
-        
-
-
-       
-
-
-
-    </div>
-    <div class="piePagina"></div>
 
 </body>
 
